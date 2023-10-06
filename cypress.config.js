@@ -1,6 +1,8 @@
-require("dotenv").config({ path: `.env${process.env.ENV_CONFIG}` });
+//require("dotenv").config({ path: `.env${process.env.ENV_CONFIG}` });
 
 const { defineConfig } = require('cypress');
+
+module.exports = defineConfig({
 
   projectId: "vwviug",
   modifyObstructiveCode: true,
