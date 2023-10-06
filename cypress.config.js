@@ -1,7 +1,7 @@
 require("dotenv").config({ path: `.env${process.env.ENV_CONFIG}` });
-const { defineConfig } = require("cypress");
 
-module.exports = defineConfig({
+const { defineConfig } = require('cypress');
+
   projectId: "vwviug",
   modifyObstructiveCode: true,
   chromeWebSecurity: false,

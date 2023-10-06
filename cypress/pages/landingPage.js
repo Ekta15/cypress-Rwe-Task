@@ -29,4 +29,4 @@ class LandingPage {
   }
   
 
-  module.exports = new LandingPage();
+  export default new LandingPage();
